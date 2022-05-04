@@ -307,6 +307,6 @@ app.get('/api/random', (request, response) => {
     response.json(characters[randomKey])
 })
 
-app.listen(PORT, (request, response) => {
+app.listen(process.env.PORT || PORT, (request, response) => {
     console.log('Listening on port: ' + PORT)
 })

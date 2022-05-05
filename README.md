@@ -6,6 +6,13 @@ Express API connected - Search for a hero and receive the hero details back from
 
 ![project screenshot](https://i.imgur.com/HbWCiuG.png)
 
+## Usage:
+get: (replace <hero name> with the hero name e.g  characters/genji
+https://simple-overwatch-hero-api.herokuapp.com/api/characters/<hero name> 
+
+get: gets random 
+https://simple-overwatch-hero-api.herokuapp.com/api/random
+
 ## How It's Made:
 
 **Tech used:** JavaScript, Express API, Heroku

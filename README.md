@@ -1,5 +1,5 @@
 # Overwatch Hero Search
-Express API connected - Search for a hero and receive the hero details back from the API I created and hosted. 
+Node.JS/Express API connected - Search for a hero and receive the hero details back from the API I created and hosted. 
 
 **Link to project client side:** https://overwatch-hero-search.netlify.app/  
 **Link to project API:** https://simple-overwatch-hero-api.herokuapp.com/
@@ -15,9 +15,9 @@ https://simple-overwatch-hero-api.herokuapp.com/api/random
 
 ## How It's Made:
 
-**Tech used:** JavaScript, Express API, Heroku
+**Tech used:** JavaScript, Node.JS, Express, Heroku
 
-The API uses Express, character data is stored as JSON and sent on fetch requests. Also includes a random response. 
+The API uses Node.JS with Express, character data is stored as JSON and sent on fetch requests. Also includes a random response. 
 
 ## Optimizations
 
@@ -25,7 +25,7 @@ Could use images as well and send url with the JSON.
 
 ## Lessons Learned:
 
-Learning how to create and use Express API's 
+Learning how to create and use API's using Node.JS and Express. 
 
 ## Examples:
 Take a look at these other examples that I have in my portfolio:

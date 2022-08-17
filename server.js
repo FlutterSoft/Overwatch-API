@@ -3,6 +3,8 @@ const app = express()
 const PORT = 8001
 const cors = require('cors')
 app.use(cors())
+// Images by DrunkenPandaFR
+// https://www.reddit.com/r/Overwatch/comments/648l9r/4k_vectorised_overwatch_heroes_icons_backgrounds/
 
 const characters = {
     ashe : {
@@ -12,7 +14,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 200,
-        'img' : 'https://static.wikia.nocookie.net/overwatch_gamepedia/images/8/84/Icon-ashe.png/revision/latest/scale-to-width-down/75?cb=20181117054646'
+        'img' : '../images/Ashe.png'
     },
     bastion : {
         'name' : 'Bastion',
@@ -21,7 +23,7 @@ const characters = {
         'nationality' : 'German',
         'role' : 'Damage',
         'health' : 300,
-        'img' : 'https://static.wikia.nocookie.net/overwatch_gamepedia/images/5/51/Icon-Bastion.png/revision/latest/scale-to-width-down/75?cb=20181018235223'
+        'img' : '../images/Bastion.png'
     },
     cassidy : {
         'name' : 'Cassidy',
@@ -30,7 +32,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 225,
-        'img' : 'https://static.wikia.nocookie.net/overwatch_gamepedia/images/5/5b/Icon-cassidy.png/revision/latest/scale-to-width-down/75?cb=20220628210623'
+        'img' : '../images/Cassidy.png'
     },
     echo : {
         'name' : 'Echo',
@@ -282,10 +284,6 @@ const characters = {
         'health' : 'unknown'
     },    
 }
-// app.get('/', (request, response) => {
-//     response.sendFile(__dirname + '/index.html')
-// })
-
 
 app.get('/api/characters/:heroName', (request, response) => {
     let selection = request.params.heroName

@@ -14,7 +14,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 200,
-        'img' : '../images/Ashe.png'
+        'img' : '../imgs/Ashe.png'
     },
     bastion : {
         'name' : 'Bastion',
@@ -23,7 +23,7 @@ const characters = {
         'nationality' : 'German',
         'role' : 'Damage',
         'health' : 300,
-        'img' : '../images/Bastion.png'
+        'img' : '../imgs/Bastion.png'
     },
     cassidy : {
         'name' : 'Cassidy',
@@ -32,7 +32,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 225,
-        'img' : '../images/Cassidy.png'
+        'img' : '../imgs/Cassidy.png'
     },
     echo : {
         'name' : 'Echo',

@@ -11,7 +11,8 @@ const characters = {
         'age' : 39,
         'nationality' : 'American',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://static.wikia.nocookie.net/overwatch_gamepedia/images/8/84/Icon-ashe.png/revision/latest/scale-to-width-down/75?cb=20181117054646'
     },
     bastion : {
         'name' : 'Bastion',
@@ -19,7 +20,8 @@ const characters = {
         'age' : 30,
         'nationality' : 'German',
         'role' : 'Damage',
-        'health' : 300
+        'health' : 300,
+        'img' : 'https://static.wikia.nocookie.net/overwatch_gamepedia/images/5/51/Icon-Bastion.png/revision/latest/scale-to-width-down/75?cb=20181018235223'
     },
     cassidy : {
         'name' : 'Cassidy',
@@ -27,7 +29,8 @@ const characters = {
         'age' : 37,
         'nationality' : 'American',
         'role' : 'Damage',
-        'health' : 225
+        'health' : 225,
+        'img' : 'https://static.wikia.nocookie.net/overwatch_gamepedia/images/5/5b/Icon-cassidy.png/revision/latest/scale-to-width-down/75?cb=20220628210623'
     },
     echo : {
         'name' : 'Echo',

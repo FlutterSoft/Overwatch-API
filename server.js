@@ -117,7 +117,7 @@ const characters = {
         'nationality' : 'Canadian',
         'role' : 'Damage',
         'health' : 200,
-        'img' : 'https://i.imgur.com/nxudmIe.png'
+        'img' : 'https://i.imgur.com/m9kLC0z.png'
     },    
     sombra : {
         'name' : 'Sombra',

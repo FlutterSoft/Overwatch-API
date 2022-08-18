@@ -279,7 +279,7 @@ const characters = {
         'nationality' : 'Dutch',
         'role' : 'Tank',
         'health' : 400,
-        'img' : 'https://i.imgur.com/m9kLC0z.png'
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     winston : {
         'name' : 'Winston',
@@ -297,7 +297,7 @@ const characters = {
         'nationality' : 'unknown',
         'role' : 'Tank',
         'health' : 600,
-        'img' : 'https://i.imgur.com/m9kLC0z.png'
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     zarya : {
         'name' : 'Zarya',
@@ -315,7 +315,7 @@ const characters = {
         'nationality' : 'unknown',
         'role' : 'unknown',
         'health' : 'unknown',
-        'img' : 'https://i.imgur.com/m9kLC0z.png'
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
 }
 

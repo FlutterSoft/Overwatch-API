@@ -27,7 +27,7 @@ const characters = {
         'nationality' : 'German',
         'role' : 'Damage',
         'health' : 300,
-        'img' : '/iamges/Bastion.png'
+        'img' : 'https://i.imgur.com/ccTq81Q.png'
     },
     cassidy : {
         'name' : 'Cassidy',
@@ -36,7 +36,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 225,
-        'img' : '/images/Cassidy.png'
+        'img' : 'https://i.imgur.com/cAqzGmU.png'
     },
     echo : {
         'name' : 'Echo',
@@ -53,7 +53,7 @@ const characters = {
         'nationality' : 'Japanese',
         'role' : 'Damage',
         'health' : 200,
-        'img' : '/public/images/Genji.png'
+        'img' : 'https://i.imgur.com/ZNY4fUq.png'
     },    
     hanzo : {
         'name' : 'Hanzo',
@@ -62,7 +62,7 @@ const characters = {
         'nationality' : 'Japanese',
         'role' : 'Damage',
         'health' : 200,
-        'img' : '/static/images/Hanzo.png'
+        'img' : 'https://i.imgur.com/FUhnFdh.png'
     },
     junkrat : {
         'name' : 'Junkrat',

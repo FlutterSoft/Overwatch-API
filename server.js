@@ -117,7 +117,7 @@ const characters = {
         'nationality' : 'Canadian',
         'role' : 'Damage',
         'health' : 200,
-        'img' : 'https://i.imgur.com/m9kLC0z.png'
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     sombra : {
         'name' : 'Sombra',
@@ -153,7 +153,7 @@ const characters = {
         'nationality' : 'Canadian',
         'role' : 'Damage',
         'health' : 200,
-        'img' : 'https://i.imgur.com/m9kLC0z.png'
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     tracer : {
         'name' : 'Tracer',
@@ -327,6 +327,10 @@ app.get('/api/characters/:heroName', (request, response) => {
     if (selection == 'soldier: 76' || selection == 'soldier 76'|| selection == 'soldier76' ){
         selection = 'soldier'
     }
+    if(selection == 'torb'){
+        selection = 'torbjorn'
+    }
+    
     if(characters[selection]){
         response.json(characters[selection])
     }

@@ -143,7 +143,8 @@ const characters = {
         'age' : 57,
         'nationality' : 'Swedish',
         'role' : 'Damage',
-        'health' : 250
+        'health' : 250,
+        'img' : 'https://i.imgur.com/m9kLC0z.png'
     },    
     sojourn : {
         'name' : 'Sojourn',

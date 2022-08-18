@@ -3,8 +3,7 @@ const app = express()
 const PORT = 8001
 const cors = require('cors')
 app.use(cors())
-app.use(express.static('public'))
-app.use('/static', express.static('public'))
+
 
 
 // Images by DrunkenPandaFR
@@ -18,7 +17,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 200,
-        'img' : '/images/Ashe.png'
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },
     bastion : {
         'name' : 'Bastion',
@@ -44,7 +43,8 @@ const characters = {
         'age' : 'unknown',
         'nationality' : 'unknown',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },
     genji : {
         'name' : 'Genji',
@@ -70,7 +70,8 @@ const characters = {
         'age' : 25,
         'nationality' : 'Australian',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/z8osdhE.png'
     },
     mei : {
         'name' : 'Mei',
@@ -79,7 +80,7 @@ const characters = {
         'nationality' : 'Chinese',
         'role' : 'Damage',
         'health' : 250,
-        'img' : '/Mei.png'
+        'img' : 'https://i.imgur.com/rWfl4z7.png'
     },
 
     pharah : {
@@ -88,7 +89,8 @@ const characters = {
         'age' : 32,
         'nationality' : 'Egyptian',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/e9BcTHk.png'
     },    
     reaper : {
         'name' : 'Reaper',
@@ -96,7 +98,8 @@ const characters = {
         'age' : 58,
         'nationality' : 'American',
         'role' : 'Damage',
-        'health' : 250
+        'health' : 250,
+        'img' : 'https://i.imgur.com/uMEyp1M.png'
     },    
     soldier : {
         'name' : 'Soldier: 76',
@@ -104,7 +107,8 @@ const characters = {
         'age' : 55,
         'nationality' : 'American',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/yhIpWWa.png'
     },    
     sojourn : {
         'name' : 'Sojourn',
@@ -112,7 +116,8 @@ const characters = {
         'age' : 'unknown',
         'nationality' : 'Canadian',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     sombra : {
         'name' : 'Sombra',
@@ -120,7 +125,8 @@ const characters = {
         'age' : 30,
         'nationality' : 'Mexican',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/7xLjGDs.png'
     },    
     symmetra : {
         'name' : 'Symmetra',
@@ -128,7 +134,8 @@ const characters = {
         'age' : 28,
         'nationality' : 'Indian',
         'role' : 'Damage',
-        'health' : 225
+        'health' : 225,
+        'img' : 'https://i.imgur.com/P17hhT7.png'
     },    
     torbjorn : {
         'name' : 'Torbjörn',
@@ -144,7 +151,8 @@ const characters = {
         'age' : 'unknown',
         'nationality' : 'Canadian',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/m9kLC0z.png'
     },    
     tracer : {
         'name' : 'Tracer',
@@ -152,7 +160,8 @@ const characters = {
         'age' : 26,
         'nationality' : 'British',
         'role' : 'Damage',
-        'health' : 150
+        'health' : 150,
+        'img' : 'https://i.imgur.com/cb7QHZJ.png'
     },    
     widowmaker : {
         'name' : 'Widowmaker',
@@ -160,7 +169,8 @@ const characters = {
         'age' : 33,
         'nationality' : 'French',
         'role' : 'Damage',
-        'health' : 175
+        'health' : 175,
+        'img' : 'https://i.imgur.com/LEHXcKp.png'
     },    
     ana : {
         'name' : 'Ana',
@@ -168,7 +178,8 @@ const characters = {
         'age' : 60,
         'nationality' : 'Egyptian',
         'role' : 'Support',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/CSqsV4c.png'
     },    
     baptiste : {
         'name' : 'Baptiste',
@@ -176,7 +187,8 @@ const characters = {
         'age' : 36,
         'nationality' : 'Haitian',
         'role' : 'Support',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     brigitte : {
         'name' : 'Brigitte',
@@ -184,7 +196,8 @@ const characters = {
         'age' : 23,
         'nationality' : 'Swedish',
         'role' : 'Support',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     lucio : {
         'name' : 'Lúcio',
@@ -192,7 +205,8 @@ const characters = {
         'age' : 26,
         'nationality' : 'Brazilian',
         'role' : 'Support',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/mEinY4v.png'
     },    
     mercy : {
         'name' : 'Mercy',
@@ -200,7 +214,8 @@ const characters = {
         'age' : 37,
         'nationality' : 'Swiss',
         'role' : 'Support',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/tiuq3H1.png'
     },    
     moira : {
         'name' : 'Moira',
@@ -208,7 +223,8 @@ const characters = {
         'age' : 48,
         'nationality' : 'Irish',
         'role' : 'Support',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/nxudmIe.png'
     },    
     zenyatta : {
         'name' : 'Zenyatta',
@@ -216,7 +232,8 @@ const characters = {
         'age' : 20,
         'nationality' : 'unknown',
         'role' : 'Support',
-        'health' : 200
+        'health' : 200,
+        'img' : 'https://i.imgur.com/xijvmx6.png'
     },    
     dva : {
         'name' : 'D.Va',
@@ -224,7 +241,8 @@ const characters = {
         'age' : 19,
         'nationality' : 'Korean',
         'role' : 'Tank',
-        'health' : 600
+        'health' : 600,
+        'img' : 'https://i.imgur.com/W5cMJUl.png'
     },    
     orisa : {
         'name' : 'Orisa',
@@ -232,7 +250,8 @@ const characters = {
         'age' : '1 Month',
         'nationality' : 'Numbanian',
         'role' : 'Tank',
-        'health' : 450
+        'health' : 450,
+        'img' : 'https://i.imgur.com/1X0t3u3.png'
     },    
     reinhardt : {
         'name' : 'Reinhardt',
@@ -240,7 +259,8 @@ const characters = {
         'age' : 61,
         'nationality' : 'German',
         'role' : 'Tank',
-        'health' : 500
+        'health' : 500,
+        'img' : 'https://i.imgur.com/z09DGSd.png'
     },    
     roadhog : {
         'name' : 'Roadhog',
@@ -248,7 +268,8 @@ const characters = {
         'age' : 48,
         'nationality' : 'Australian',
         'role' : 'Tank',
-        'health' : 600
+        'health' : 600,
+        'img' : 'https://i.imgur.com/CoOpqRo.png'
     },    
     sigma : {
         'name' : 'Sigma',
@@ -256,7 +277,8 @@ const characters = {
         'age' : 62,
         'nationality' : 'Dutch',
         'role' : 'Tank',
-        'health' : 400
+        'health' : 400,
+        'img' : 'https://i.imgur.com/m9kLC0z.png'
     },    
     winston : {
         'name' : 'Winston',
@@ -264,7 +286,8 @@ const characters = {
         'age' : 29,
         'nationality' : 'unknown',
         'role' : 'Tank',
-        'health' : 500
+        'health' : 500,
+        'img' : 'https://i.imgur.com/3PPecs1.png'
     },    
     'wrecking ball' : {
         'name' : 'Wrecking Ball',
@@ -272,7 +295,8 @@ const characters = {
         'age' : 14,
         'nationality' : 'unknown',
         'role' : 'Tank',
-        'health' : 600
+        'health' : 600,
+        'img' : 'https://i.imgur.com/m9kLC0z.png'
     },    
     zarya : {
         'name' : 'Zarya',
@@ -280,7 +304,8 @@ const characters = {
         'age' : 28,
         'nationality' : 'Russian',
         'role' : 'Tank',
-        'health' : 400
+        'health' : 400,
+        'img' : 'https://i.imgur.com/znV99Xu.png'
     },    
     unknown : {
         'name' : 'unknown',
@@ -288,7 +313,8 @@ const characters = {
         'age' : 'unknown',
         'nationality' : 'unknown',
         'role' : 'unknown',
-        'health' : 'unknown'
+        'health' : 'unknown',
+        'img' : 'https://i.imgur.com/m9kLC0z.png'
     },    
 }
 

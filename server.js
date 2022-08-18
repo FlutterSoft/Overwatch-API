@@ -4,6 +4,7 @@ const PORT = 8001
 const cors = require('cors')
 app.use(cors())
 app.use(express.static('public'))
+app.use('/static', express.static('public'))
 
 
 // Images by DrunkenPandaFR
@@ -52,7 +53,7 @@ const characters = {
         'nationality' : 'Japanese',
         'role' : 'Damage',
         'health' : 200,
-        'img' : '/images/Genji.png'
+        'img' : '/public/images/Genji.png'
     },    
     hanzo : {
         'name' : 'Hanzo',
@@ -60,7 +61,8 @@ const characters = {
         'age' : 38,
         'nationality' : 'Japanese',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : '/static/images/Hanzo.png'
     },
     junkrat : {
         'name' : 'Junkrat',
@@ -76,7 +78,8 @@ const characters = {
         'age' : 31,
         'nationality' : 'Chinese',
         'role' : 'Damage',
-        'health' : 250
+        'health' : 250,
+        'img' : '/Mei.png'
     },
 
     pharah : {

@@ -3,6 +3,9 @@ const app = express()
 const PORT = 8001
 const cors = require('cors')
 app.use(cors())
+app.use(express.static('public'))
+
+
 // Images by DrunkenPandaFR
 // https://www.reddit.com/r/Overwatch/comments/648l9r/4k_vectorised_overwatch_heroes_icons_backgrounds/
 
@@ -14,7 +17,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 200,
-        'img' : '../imgs/Ashe.png'
+        'img' : '/images/Ashe.png'
     },
     bastion : {
         'name' : 'Bastion',
@@ -23,7 +26,7 @@ const characters = {
         'nationality' : 'German',
         'role' : 'Damage',
         'health' : 300,
-        'img' : '../imgs/Bastion.png'
+        'img' : '/iamges/Bastion.png'
     },
     cassidy : {
         'name' : 'Cassidy',
@@ -32,7 +35,7 @@ const characters = {
         'nationality' : 'American',
         'role' : 'Damage',
         'health' : 225,
-        'img' : '../imgs/Cassidy.png'
+        'img' : '/images/Cassidy.png'
     },
     echo : {
         'name' : 'Echo',
@@ -48,7 +51,8 @@ const characters = {
         'age' : 35,
         'nationality' : 'Japanese',
         'role' : 'Damage',
-        'health' : 200
+        'health' : 200,
+        'img' : '/images/Genji.png'
     },    
     hanzo : {
         'name' : 'Hanzo',
